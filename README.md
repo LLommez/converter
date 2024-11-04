@@ -30,9 +30,6 @@ Folder Structure:
    - instructions: where you’re reading these instructions.
    - outputs: to store the generated files.
 
-File Handling:
-   After generating charges_atoms.log and xyz.log files, move them to the "outputs" folder or any directory of your choice and/or rename them if they are useful. The .pqr file will be renamed during generation. This helps avoid overwriting files in future runs.
-
 Test File:
    In the converter folder, there is a file called "calibration_gauss.log" and "calibration.molden.input" used to calibrate the program. You can use them to test the program's functionality. You'll also find an example of output.pqr, charges_atoms.log, and xyz.log in the outputs folder for reference.
 
@@ -47,7 +44,6 @@ Test File:
 5. Select your file (it will list all files in the directory).
 6. Choose the input type (Gaussian or Orca).
 7. Your .pqr will be generated.
-8. Note: In the case of Orca, you will be prompted to rename the .pqr at the end.
 
 After running the command, the generated files will be in the "converter" folder.
 

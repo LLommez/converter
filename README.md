@@ -41,8 +41,8 @@ Test File:
 2. Navigate to the "converter" folder.
 3. Ensure that the file you want to convert is in the same directory as the converter executable.
 4. Run the command: ./converter
-5. Select your file (it will list all files in the directory).
-6. Choose the input type (Gaussian or Orca).
+5. Select your file (it will list all files useful in the directory).
+6. Choose whether to run all files or not
 7. Your .pqr will be generated.
 
 After running the command, the generated files will be in the "converter" folder.
